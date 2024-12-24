@@ -1,0 +1,11 @@
+CREATE TABLE requests (
+    request_id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_id VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    admin VARCHAR(255) NOT NULL,
+    type ENUM('request', 'comment') NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    details TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    feedback details TEXT NULL,
+);

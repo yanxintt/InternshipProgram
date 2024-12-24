@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.a {
+    width: 100%; 
+    max-width: 600px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="number"], form select {
+    padding: 10px; 
+    font-size: 1rem;
+    width: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    background-color: #a1cbf7; 
+    color: black;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+form input[type="submit"]:hover {
+    background-color: #88b3e3; 
+}
+
+header .logo {
+    text-decoration: none; 
+    color: #feb9db; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    display: flex; 
+    align-items: center; 
+}
+
+header .logo span {
+    color: white; 
+    font-weight: normal; 
+    margin-left: 5px; 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0; 
+    margin-right: 190px; 
+    font-size: 2rem;
+}
+
+#topNavigation {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+#topNavigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s; 
+}
+
+#topNavigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#topNavigation ul li {
+    margin: 0 15px;
+}
+
+#topNavigation ul li a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    margin-top: auto;
+    width: 100%;
+}
+
+
